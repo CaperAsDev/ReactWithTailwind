@@ -13,7 +13,6 @@ export default function Category() {
     async function getData() {
       if (catName) {
         const data = await getByCategory(catName);
-        console.log(data);
         if (data.length === 0 && (catName === "men's Clothing" || catName === "women's clothing")) {
           const filteredProducts = products.filter((item) => item.category === catName);
           setProductsToRender(filteredProducts);
@@ -23,7 +22,6 @@ export default function Category() {
       }
     }
     getData();
-    console.log(productsToRender);
   }, [catName]);
 
   return (
