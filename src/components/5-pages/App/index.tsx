@@ -12,13 +12,13 @@ import { ShoppingProvider } from '../../../contexts';
 
 const AppRoutes = () => {
   const routes = useRoutes([
-    { path: '/', element: <Home /> },
-    { path: '/category/:catName', element: <Category /> },
-    { path: '/my_order/:orderId', element: <MyOrder /> },
-    { path: '/my_orders', element: <MyOrders /> },
-    { path: '/sign_in', element: <SignIn /> },
-    { path: '/my_account', element: <MyAccount /> },
-    { path: '/*', element: <NotFound /> },
+    { path: '/ReactWithTailwind/', element: <Home /> },
+    { path: '/ReactWithTailwind/category/:catName', element: <Category /> },
+    { path: '/ReactWithTailwind/my_order/:orderId', element: <MyOrder /> },
+    { path: '/ReactWithTailwind/my_orders', element: <MyOrders /> },
+    { path: '/ReactWithTailwind/sign_in', element: <SignIn /> },
+    { path: '/ReactWithTailwind/my_account', element: <MyAccount /> },
+    { path: '/ReactWithTailwind/*', element: <NotFound /> },
   ]);
   return routes;
 };
