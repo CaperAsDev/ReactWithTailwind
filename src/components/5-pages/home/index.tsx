@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useContext, useEffect, useState } from 'react';
 import { MagnifyingGlassCircleIcon } from '@heroicons/react/24/solid';
-import Card from '../../1-atoms/card';
+import Card from '../../2-molecules/card';
 import { getAll } from '../../../apiConnection';
 import { ShoppingContext } from '../../../contexts';
 

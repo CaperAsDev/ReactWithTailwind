@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { useRoutes, BrowserRouter } from 'react-router-dom';
 import Home from '../home';
 import MyAccount from '../myAccount';

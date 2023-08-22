@@ -2,7 +2,7 @@
 import { useContext, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { ShoppingContext } from '../../../contexts';
-import Card from '../../1-atoms/card';
+import Card from '../../2-molecules/card';
 import { getByCategory } from '../../../apiConnection';
 
 export default function Category() {

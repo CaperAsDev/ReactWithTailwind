@@ -4,7 +4,7 @@ import { useContext } from 'react';
 import { CheckIcon } from '@heroicons/react/24/solid';
 import { Product } from '../../types';
 import { ShoppingContext } from '../../contexts';
-import Button from './button';
+import Button from '../1-atoms/button';
 
 type CardProps = {
   data: Product

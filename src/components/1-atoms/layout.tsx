@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import SideMenu from '../3-organisms/sideMenu';
 import { ShoppingContext } from '../../contexts';
+import SideMenu from '../3-organisms/sideMenu';
 import ProductDetail from '../3-organisms/productDetail';
 import MyOrder from '../3-organisms/myOrder';
 
