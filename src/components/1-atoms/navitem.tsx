@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 type NavItemProps = {
-  text: string
+  text: string | JSX.Element
   to: string | undefined
   customClass?: string
 };
