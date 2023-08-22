@@ -2,9 +2,9 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useContext } from 'react';
 import { CheckIcon } from '@heroicons/react/24/solid';
-import Button from './button';
 import { Product } from '../../types';
 import { ShoppingContext } from '../../contexts';
+import Button from './button';
 
 type CardProps = {
   data: Product
