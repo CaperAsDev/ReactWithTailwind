@@ -1,10 +1,10 @@
+/* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import { useContext } from 'react';
-import { CheckIcon } from '@heroicons/react/24/solid';
+import { CheckIcon, PlusIcon } from '@heroicons/react/24/solid';
 import { Product } from '../../types';
 import { ShoppingContext } from '../../contexts';
-import Button from '../1-atoms/button';
 
 type CardProps = {
   data: Product
@@ -39,7 +39,13 @@ export default function Card({ data }:CardProps) {
       );
     }
     return (
-      <Button content="+" action={addItem} />
+      <button
+        type="button"
+        onClick={addItem}
+        className="hover:scale-110 absolute top-0 right-0 m-1.5 bg-white/60 text-sm rounded-full w-6 h-6 "
+      >
+        <PlusIcon className="w-6 h-6 text-black" />
+      </button>
     );
   }
 
